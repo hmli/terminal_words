@@ -37,5 +37,5 @@ func TestMatrix(t *testing.T) {
 func TestPrintWords(t *testing.T) {
 	s := "工要在地"
 	g := NewRandCharGenerator("$&JFDS")
-	PrintWords(s,10, g)
+	PrintWords(s,20, g)
 }
